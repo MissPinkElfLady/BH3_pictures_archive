@@ -54,12 +54,12 @@ def download_images_from_json(json_data, download_folder):
 
 if __name__ == "__main__":
     # Replace 'your_json_file.json' with the actual path to your JSON file
-    json_file_path = "C:/Users/awake/Desktop/Mihoyo_scrape/run_results_stigmata_copy.json"
+    json_file_path = "insert_path_to_your_json"
 
     with open(json_file_path, 'r', encoding='utf-8') as file:
         json_data = json.load(file)
 
-    download_folder = 'C:/Users/awake/Desktop/Mihoyo_scrape/Stigmata'
+    download_folder = 'insert_path_to_your_download_folder'
     failed_attempts = download_images_from_json(json_data, download_folder)
 
     # Print or process failed attempts
