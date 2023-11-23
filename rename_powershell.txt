@@ -1,0 +1,9 @@
+for all files in specified directory, if first 4 characters contains non-numbers, append "2023-" before the filenames
+
+Get-ChildItem -Path "insert_your_path_here" | ForEach-Object {
+    $newName = $_.Name
+    if (-not ($_.Name.Substring(0,4) -match '^\d+$')) {
+        $newName = "2023-" + $_.Name
+    }
+    $_ | Rename-Item -NewName $newName
+}
