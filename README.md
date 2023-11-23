@@ -23,6 +23,8 @@ The second if statement filters the wanted word in title and only scrapes those 
 
 You might want to join the json files from different runs for the download to be easier.
 
+If you want to take a look at what a scrape looks like, I have included a json file that contains info for all posts from the official account I scraped. Image links are for wallpapers and can be found in the wallpaper folder in mega. 
+
 2) download with python file provided
 
 Sometimes the title contain bad characters, for example the sigmata. Since it only happen in earlier posts and does not happen too often, I just manually fix them.
