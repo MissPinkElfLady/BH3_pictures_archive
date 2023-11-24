@@ -1,5 +1,5 @@
 # BH3_pictures_archive
-Archive of pictures posted on miyoushe.com
+Archive of Honkai Impact 3 pictures posted on miyoushe.com
 # Updated 11/23/2023
 Mega link:
 
