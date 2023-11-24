@@ -33,4 +33,14 @@ Sometimes the title contain bad characters, for example the sigmata. Since it on
 
 year is omitted for 2023, so for completeness I append those with the powershell command.
 
-Finally, if you feel this helped you, please star this repo! Thanks!
+# Important: Parsehub somehow does not get the job done and a lot of posts that should have image urls do not have them. I am working on making another script to replace its job. Current remedy is to use other scripts to check and redownload:
+
+Run the find_parsehub_omittance.py to generate a json that contains list of urls that are not downloaded
+
+Load the json file into miyoushe_individual_page_scrape.py
+
+Often times the connection will time out. The script will save failed entries and output it to another file, and you can load it back into the script again to rerun. Often times this will solve the issue. I did not set it up recursively such that even if something happens, at least part of the output is still accessible.
+
+Finally, use the download_images_with_retry.py to repeat the process again.
+
+If you feel this helped you, please star this repo! Thanks!
