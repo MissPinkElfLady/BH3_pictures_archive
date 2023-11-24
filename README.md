@@ -33,7 +33,9 @@ Sometimes the title contain bad characters, for example the sigmata. Since it on
 
 year is omitted for 2023, so for completeness I append those with the powershell command.
 
-# Important: Parsehub somehow does not get the job done and a lot of posts that should have image urls do not have them. I am working on making another script to replace its job. Current remedy is to use other scripts to check and redownload:
+# Important: 
+
+Parsehub somehow does not get the job done and a lot of posts that should have image urls do not have them. I am working on making another script to replace its job. Current remedy is to use other scripts to check and redownload:
 
 Run the find_parsehub_omittance.py to generate a json that contains list of urls that are not downloaded
 
