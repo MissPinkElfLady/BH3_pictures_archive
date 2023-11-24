@@ -1,7 +1,8 @@
 # BH3_pictures_archive
 Archive of Honkai Impact 3 pictures posted on miyoushe.com
-# Updated 11/23/2023
+
 # Mega link for preview/download the pictures:
+Updated 11/23/2023
 https://mega.nz/folder/JWMnCRaZ#xm4xhiIBtLC1q-C6pnsqFQ
 
 # Continue reading if you want to do it yourself:
