@@ -43,6 +43,8 @@ Load the json file into miyoushe_individual_page_scrape.py
 
 Often times the connection will time out. The script will save failed entries and output it to another file, and you can load it back into the script again to rerun. Often times this will solve the issue. I did not set it up recursively such that even if something happens, at least part of the output is still accessible.
 
-Finally, use the download_images_with_retry.py to repeat the process again.
+Use the download_images_with_retry.py to repeat the process again.
+
+Finally, run the powershell command to append current year to the filenames if you wish.
 
 If you feel this helped you, please star this repo! Thanks!
