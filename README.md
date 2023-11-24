@@ -25,9 +25,11 @@ You might want to join the json files from different runs for the download to be
 
 If you want to take a look at what a scrape looks like, I have included a json file that contains info for all posts from the official account I scraped. Image links are for wallpapers and can be found in the wallpaper folder in mega. 
 
-2) download with python file provided
+2) download with download_images_with_retry.py
 
 Sometimes the title contain bad characters, for example the sigmata. Since it only happen in earlier posts and does not happen too often, I just manually fix them.
+
+Rarely does an image exceed maximum number of tries. You could try and increase MAX_RETRIES if you want. Alternatively the script also prints out failed pictures along with their assigned names so you can manually download them if there are not too many failed attempts.
 
 3) change the dates if you wish
 
