@@ -2,7 +2,9 @@
 Archive of Honkai Impact 3 pictures posted on miyoushe.com
 
 # Mega link for preview/download the pictures:
-Updated 11/23/2023
+Updated 12/07/2023
+
+Probably my last update in a very long time as 1.5 is over now. Maybe I'll download more when the old characters appear in the new 2.0 plot.
 
 https://mega.nz/folder/JWMnCRaZ#xm4xhiIBtLC1q-C6pnsqFQ
 
